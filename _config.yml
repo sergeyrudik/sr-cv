@@ -15,8 +15,8 @@ website: www.rudik.com/
 darkmode: false
 
 # Social links
-twitter_username: 
-github_username:  
+twitter_username: test
+github_username:  test
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -25,7 +25,7 @@ instagram_username: sergeyrudik
 linkedin_username: sergei-rudik
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: 
+youtube_username: test
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>Testing</mark> and <mark>Eating Pizza</mark>
 
-# content:
+content:
 #   - title: Projects # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
