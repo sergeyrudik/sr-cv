@@ -46,7 +46,7 @@ youtube_username:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sergei and I'm a senior QA engineer. I have experience in automating frontend and backend testing in python and js.
   I also mentored students at an online testing school.
