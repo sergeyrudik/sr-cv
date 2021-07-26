@@ -91,7 +91,6 @@ content:
             Manual and automated testing (functional and non-functional, integration).
             Preparation of test plans and test scenarios.
 
-    content:
       - layout: left
         title: Delimobil
         link: delimobil.ru
@@ -104,7 +103,6 @@ content:
             Several mobile applications, many features, active agile testing.
             Automated tests in Python for API/Backend.
 
-    content:
       - layout: left
         title: ASOdesk
         link: asodesk.com
@@ -117,7 +115,6 @@ content:
             There are also various reports and tools to analyze these words.
             Automated tests in Python and Selenium for UI.
 
-    content:
       - layout: left
         title: Netcracker Technology
         link: netcracker.com
