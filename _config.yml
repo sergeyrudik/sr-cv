@@ -91,6 +91,45 @@ content:
             Manual and automated testing (functional and non-functional, integration).
             Preparation of test plans and test scenarios.
 
+    content:
+      - layout: left
+        title: Delimobil
+        link: delimobil.ru
+        # link_text: boringcompany.com
+        sub_title: QA Engineer
+        caption: October 2019 - June 2020
+        quote: >
+          А lot of API and mobile app checks.
+        description: | # this will include new lines to allow paragraphs
+            Several mobile applications, many features, active agile testing.
+            Automated tests in Python for API/Backend.
+
+    content:
+      - layout: left
+        title: ASOdesk
+        link: asodesk.com
+        # link_text: boringcompany.com
+        sub_title: QA Engineer
+        caption: September 2018 - September 2019
+        quote: >
+          This is a highly loaded web service with a lot of words that help in promoting applications for AppStore and GooglePlay.
+        description: | # this will include new lines to allow paragraphs
+            There are also various reports and tools to analyze these words.
+            Automated tests in Python and Selenium for UI.
+
+    content:
+      - layout: left
+        title: Netcracker Technology
+        link: netcracker.com
+        # link_text: boringcompany.com
+        sub_title: QA Engineer
+        caption: September 2017 - September 2018
+        quote: >
+          Training in all types of testing.
+        description: | # this will include new lines to allow paragraphs
+            This is a highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
+            Manual testing, writing automated tests in Robot framework and internal tools.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
