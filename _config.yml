@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I also mentored students at an online testing school.
 
-  I am most skilled in: <mark>Testing</mark> and <mark>Eating Pizza</mark>
+  I am most skilled at: <mark>Testing</mark> and <mark>Eating Pizza</mark>
 
 content:
 #   - title: Projects # Title for the section
@@ -84,7 +84,7 @@ content:
         sub_title: Senior QA Engineer
         caption: June 2020 - Present
         quote: >
-          Maximum increase in the number of tests.
+          Autotests, autotests ... and more autotests.
         description: | # this will include new lines to allow paragraphs
             Automation of test scenarios using pytest (including selenium), support for existing autotests.
             Writing unittests with javascript + jest.
