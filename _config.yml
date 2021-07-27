@@ -111,8 +111,8 @@ content:
         caption: September 2018 - September 2019
         quote: >
           This is a highly loaded web service with a lot of words that help in promoting applications for AppStore and GooglePlay.
+          There are also various reports and tools to analyze these words.
         description: | # this will include new lines to allow paragraphs
-            There are also various reports and tools to analyze these words.
             Automated tests in Python and Selenium for UI.
 
       - layout: left
