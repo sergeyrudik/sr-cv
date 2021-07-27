@@ -141,7 +141,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       My hobbies and interests except of software engineering and networks are:
-      - Travels
+      - Travelling
       - Driving
       - Gaming
 
