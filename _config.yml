@@ -131,7 +131,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: PSUTI - Povolzhskiy State University of Telecommunications & Informatics
+        title: Povolzhskiy State University of Telecommunications & Informatics
         caption: 2010 - 2015
         sub_title: Сommunications Engineer
         description: | # this will include new lines to allow paragraphs
