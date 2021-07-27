@@ -131,13 +131,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: PSUTI
+        title: PSUTI - Povolzhskiy State University of Telecommunications & Informatics
         caption: 2010 - 2015
         sub_title: Сommunications Engineer
         description: | # this will include new lines to allow paragraphs
           Engineering education in the telecommunications sector.
 
-  - title: A Little More About Me
+  - title: A Little Bit More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       My hobbies and interests except of software engineering and networks are:
