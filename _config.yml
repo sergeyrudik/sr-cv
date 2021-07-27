@@ -124,7 +124,7 @@ content:
         quote: >
           Training in all types of testing.
         description: | # this will include new lines to allow paragraphs
-            This is a highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
+            Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
             Manual testing, writing automated tests in Robot framework and internal tools.
 
   - title: Education # Title for the section
