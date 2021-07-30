@@ -90,6 +90,19 @@ content:
             Writing unittests with javascript + jest.
             Manual and automated testing (functional and non-functional, integration).
             Preparation of test plans and test scenarios.
+      - layout: left
+        title: SkillFactory (Part-time)
+        link: https://skillfactory.ru/
+        # link_text: boringcompany.com
+        sub_title: QA Mentor
+        caption: September 2020 - May 2021
+        quote: >
+          Autotests, autotests ... and more autotests.
+        description: | # this will include new lines to allow paragraphs
+            - Consulting students on emerging issues
+            - Checking homework
+            - Personal analysis of assignments with students
+            - Participation in the finalization of training modules
 
       - layout: left
         title: Delimobil
