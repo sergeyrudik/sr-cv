@@ -40,9 +40,9 @@ linkedin_username: sergei-rudik
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
+gtm: "G-B4XR81HWTY"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "G-B4XR81HWTY"
 
 # About Section
 # about_title: About Me
