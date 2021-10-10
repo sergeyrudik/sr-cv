@@ -41,7 +41,7 @@ linkedin_username: sergei-rudik
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 gtm: "G-B4XR81HWTY"
-# gtag: "UA-00000000-0"
+gtag: "G-B4XR81HWTY"
 google_analytics: "G-B4XR81HWTY"
 
 # About Section
