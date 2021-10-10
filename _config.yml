@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sergei Rudik
-title: Senior QA Engineer
+title: Lead QA Engineer
 email: sergei@rudik.dev
 website: https://rudik.dev
 
@@ -48,7 +48,7 @@ linkedin_username: sergei-rudik
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sergei and I'm a senior QA engineer. I have experience in automating frontend and backend testing in python and js.
+  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating frontend and backend testing in python and js.
 
   I also mentored students at an online testing school.
 
