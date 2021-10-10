@@ -78,11 +78,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Delivery club
+        link: delivery-club.ru
+        # link_text: boringcompany.com
+        sub_title: Lead QA Engineer
+        caption: August 2021 - Present
+        quote: >
+          A lot of scripts, big data and data processing.
+        description: | # this will include new lines to allow paragraphs
+            MLOPS team.
+            Automation of test scenarios using pytest, support for existing autotests.
+            Manual and automated testing (functional and non-functional, integration).
+      - layout: left
         title: Kaspersky Lab
         link: kaspersky.com
         # link_text: boringcompany.com
         sub_title: Senior QA Engineer
-        caption: June 2020 - Present
+        caption: June 2020 - August 2021
         quote: >
           Autotests, autotests ... and more autotests.
         description: | # this will include new lines to allow paragraphs
