@@ -10,7 +10,6 @@ name: Sergei Rudik
 title: Lead QA Engineer
 email: sergei@rudik.dev
 website: https://rudik.dev
-articles: https://medium.com/@rudikqa
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -54,6 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
   I also mentored students at an online testing school.
 
   I am most skilled at: <mark>Testing</mark> and <mark>Eating Pizza</mark>
+  
+  I also write informative articles - [Medium](https://medium.com/@rudikqa)
 
 content:
 #   - title: Projects # Title for the section
