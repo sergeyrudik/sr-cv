@@ -53,28 +53,28 @@ about_content: | # this will include new lines to allow paragraphs
   I also mentor students at the School of Online Professions.
 
   I am most skilled at: <mark>Testing</mark> and <mark>Eating Pizza</mark>
-  
+
   I write informative articles - [Medium](https://medium.com/@rudikqa)
 
 content:
-#   - title: Projects # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: top-middle
-#         title: Super awesome project
-#         link: github.com/sproogen
-#         # link_text: Project Website
-#         additional_links:
-#           - title:  sproogen/modern-resume-theme
-#             icon: fab fa-github
-#             url: github.com/sproogen/modern-resume-theme
-#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#           #   icon: fab fa-github
-#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#         quote: >
-#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#         description: | # this will include new lines to allow paragraphs
-#           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  #   - title: Projects # Title for the section
+  #     layout: list # Type of content section (list/text)
+  #     content:
+  #       - layout: top-middle
+  #         title: Super awesome project
+  #         link: github.com/sproogen
+  #         # link_text: Project Website
+  #         additional_links:
+  #           - title:  sproogen/modern-resume-theme
+  #             icon: fab fa-github
+  #             url: github.com/sproogen/modern-resume-theme
+  #           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           #   icon: fab fa-github
+  #           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #         quote: >
+  #           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #         description: | # this will include new lines to allow paragraphs
+  #           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -88,9 +88,9 @@ content:
         quote: >
           A lot of scripts, big data and data processing.
         description: | # this will include new lines to allow paragraphs
-            - MLOPS team.
-            - Automation of test scenarios using pytest, support for existing autotests.
-            - Manual and automated testing (functional and non-functional, integration).
+          - MLOPS team.
+          - Automation of test scenarios using pytest, support for existing autotests.
+          - Manual and automated testing (functional and non-functional, integration).
       - layout: left
         title: Kaspersky Lab
         link: kaspersky.com
@@ -100,10 +100,10 @@ content:
         quote: >
           Autotests, autotests ... and more autotests.
         description: | # this will include new lines to allow paragraphs
-            - Automation of test scenarios using pytest (including selenium), support for existing autotests.
-            - Writing unittests with javascript + jest to check snapshots.
-            - Manual and automated testing (functional and non-functional, integration).
-            - Preparation of test plans and test scenarios.
+          - Automation of test scenarios using pytest (including selenium), support for existing autotests.
+          - Writing unittests with javascript + jest to check snapshots.
+          - Manual and automated testing (functional and non-functional, integration).
+          - Preparation of test plans and test scenarios.
       - layout: left
         title: SkillFactory (Part-time)
         link: skillfactory.ru
@@ -113,10 +113,10 @@ content:
         quote: >
           A lot of communication.
         description: | # this will include new lines to allow paragraphs
-            - Consulting students on emerging issues
-            - Checking homework
-            - Personal analysis of assignments with students
-            - Participation in the finalization of training modules
+          - Consulting students on emerging issues
+          - Checking homework
+          - Personal analysis of assignments with students
+          - Participation in the finalization of training modules
 
       - layout: left
         title: Delimobil
@@ -127,8 +127,8 @@ content:
         quote: >
           А lot of API and mobile app checks.
         description: | # this will include new lines to allow paragraphs
-            - Several mobile applications, many features, active agile testing.
-            - Automated tests in Python for API/Backend.
+          - Several mobile applications, many features, active agile testing.
+          - Automated tests in Python for API/Backend.
 
       - layout: left
         title: ASOdesk
@@ -140,8 +140,8 @@ content:
           This is a highly loaded web service with a lot of words that help in promoting applications for AppStore and GooglePlay.
           There are also various reports and tools to analyze these words.
         description: | # this will include new lines to allow paragraphs
-            - Automated tests in Python and Selenium for UI.
-            - Manual testing of all developed functionality.
+          - Automated tests in Python and Selenium for UI.
+          - Manual testing of all developed functionality.
 
       - layout: left
         title: Netcracker Technology
@@ -152,8 +152,8 @@ content:
         quote: >
           Training in all types of testing.
         description: | # this will include new lines to allow paragraphs
-            - Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
-            - Manual testing, writing automated tests in Robot framework and internal tools.
+          - Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
+          - Manual testing, writing automated tests in Robot framework and internal tools.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -185,4 +185,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
