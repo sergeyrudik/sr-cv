@@ -88,9 +88,9 @@ content:
         quote: >
           A lot of scripts, big data and data processing.
         description: | # this will include new lines to allow paragraphs
-            MLOPS team.
-            Automation of test scenarios using pytest, support for existing autotests.
-            Manual and automated testing (functional and non-functional, integration).
+            - MLOPS team.
+            - Automation of test scenarios using pytest, support for existing autotests.
+            - Manual and automated testing (functional and non-functional, integration).
       - layout: left
         title: Kaspersky Lab
         link: kaspersky.com
