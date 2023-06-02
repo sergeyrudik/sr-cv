@@ -100,10 +100,10 @@ content:
         quote: >
           Autotests, autotests ... and more autotests.
         description: | # this will include new lines to allow paragraphs
-            Automation of test scenarios using pytest (including selenium), support for existing autotests.
-            Writing unittests with javascript + jest.
-            Manual and automated testing (functional and non-functional, integration).
-            Preparation of test plans and test scenarios.
+            - Automation of test scenarios using pytest (including selenium), support for existing autotests.
+            - Writing unittests with javascript + jest to check snapshots.
+            - Manual and automated testing (functional and non-functional, integration).
+            - Preparation of test plans and test scenarios.
       - layout: left
         title: SkillFactory (Part-time)
         link: skillfactory.ru
@@ -127,8 +127,8 @@ content:
         quote: >
           А lot of API and mobile app checks.
         description: | # this will include new lines to allow paragraphs
-            Several mobile applications, many features, active agile testing.
-            Automated tests in Python for API/Backend.
+            - Several mobile applications, many features, active agile testing.
+            - Automated tests in Python for API/Backend.
 
       - layout: left
         title: ASOdesk
@@ -140,7 +140,8 @@ content:
           This is a highly loaded web service with a lot of words that help in promoting applications for AppStore and GooglePlay.
           There are also various reports and tools to analyze these words.
         description: | # this will include new lines to allow paragraphs
-            Automated tests in Python and Selenium for UI.
+            - Automated tests in Python and Selenium for UI.
+            - Manual testing of all developed functionality.
 
       - layout: left
         title: Netcracker Technology
@@ -151,8 +152,8 @@ content:
         quote: >
           Training in all types of testing.
         description: | # this will include new lines to allow paragraphs
-            Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
-            Manual testing, writing automated tests in Robot framework and internal tools.
+            - Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
+            - Manual testing, writing automated tests in Robot framework and internal tools.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -162,7 +163,7 @@ content:
         caption: 2010 - 2015
         sub_title: Сommunications Engineer
         description: | # this will include new lines to allow paragraphs
-          Engineering education in the telecommunications sector.
+          - Engineering education in the telecommunications sector.
 
   - title: A Little Bit More About Me
     layout: text
