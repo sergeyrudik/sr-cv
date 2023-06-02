@@ -48,13 +48,13 @@ google_analytics: "G-B4XR81HWTY"
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating frontend and backend testing in python and js.
+  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating testing of front-end and back-end testing, mainly in python, as well as js and java.
 
-  I also mentored students at an online testing school.
+  I also mentor students at the School of Online Professions.
 
   I am most skilled at: <mark>Testing</mark> and <mark>Eating Pizza</mark>
   
-  I also write informative articles - [Medium](https://medium.com/@rudikqa)
+  I write informative articles - [Medium](https://medium.com/@rudikqa)
 
 content:
 #   - title: Projects # Title for the section
