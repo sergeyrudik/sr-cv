@@ -137,7 +137,7 @@ content:
           - Manual testing, writing automated tests in Robot framework and internal tools.
 
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: left
         title: Povolzhskiy State University of Telecommunications & Informatics
