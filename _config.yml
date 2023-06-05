@@ -105,10 +105,10 @@ content:
           - Manual and automated testing (functional and non-functional, integration).
           - Preparation of test plans and test scenarios.
       - layout: left
-        title: SkillFactory (Part-time)
-        link: skillfactory.ru
+        title: SkillFactory
+        link: [skillfactory](skillfactory.ru)
         # link_text: boringcompany.com
-        sub_title: QA Mentor
+        sub_title: QA Mentor (Part-time)
         caption: September 2020 - Present
         quote: >
           A lot of communication.
