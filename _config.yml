@@ -82,7 +82,7 @@ content:
       - layout: left
         title: Delivery club
         link: delivery-club.ru
-        # link_text: boringcompany.com
+        link_text: delivery-club
         sub_title: Lead QA Engineer
         caption: August 2021 - December 2022
         quote: >
@@ -94,7 +94,7 @@ content:
       - layout: left
         title: Kaspersky Lab
         link: kaspersky.com
-        # link_text: boringcompany.com
+        link_text: kaspersky
         sub_title: Senior QA Engineer
         caption: June 2020 - August 2021
         quote: >
@@ -133,7 +133,7 @@ content:
       - layout: left
         title: ASOdesk
         link: asodesk.com
-        # link_text: boringcompany.com
+        link_text: asodesk
         sub_title: QA Engineer
         caption: September 2018 - September 2019
         quote: >
@@ -146,7 +146,7 @@ content:
       - layout: left
         title: Netcracker Technology
         link: netcracker.com
-        # link_text: boringcompany.com
+        link_text: netcracker
         sub_title: QA Engineer
         caption: September 2017 - September 2018
         quote: >
