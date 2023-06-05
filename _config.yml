@@ -106,8 +106,8 @@ content:
           - Preparation of test plans and test scenarios.
       - layout: left
         title: SkillFactory
-        # link: [skillfactory](skillfactory.ru)
-        link_text: [skillfactory](skillfactory.ru)
+        link: skillfactory.ru
+        # link_text: [skillfactory](skillfactory.ru)
         sub_title: QA Mentor (Part-time)
         caption: September 2020 - Present
         quote: >
