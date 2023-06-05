@@ -48,7 +48,7 @@ google_analytics: "G-B4XR81HWTY"
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating testing of front-end and back-end testing, mainly in Python, as well as JavaScript and Java.
+  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating front and back end testing, mainly in Python, as well as JavaScript and Java.
 
   I also mentor students at the School of Online Professions.
 
@@ -127,7 +127,7 @@ content:
         quote: >
           А lot of API and mobile app checks.
         description: | # this will include new lines to allow paragraphs
-          - Several mobile applications, many features, active agile testing.
+          - Testing of several web and mobile applications, validation of different admin panels.
           - Automated tests in Python for API/Backend.
 
       - layout: left
@@ -152,7 +152,7 @@ content:
         quote: >
           Training in all types of testing.
         description: | # this will include new lines to allow paragraphs
-          - Have worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
+          - Worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
           - Manual testing, writing automated tests in Robot framework and internal tools.
 
   - title: Education # Title for the section
@@ -168,7 +168,7 @@ content:
   - title: A Little Bit More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      My hobbies and interests except of software engineering and networks are:
+      My hobbies and interests besides software engineering and networks are:
       - Travelling
       - Driving
       - Gaming
