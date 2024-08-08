@@ -61,6 +61,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: ECOM retail project
+        link: .
+        link_text: ECOM retail project
+        sub_title: Senior QA Engineer
+        caption: January 2023 - Now
+        quote: >
+          A lot of code, a lot of socializing with coworkers and other interactions.
+        description: | # this will include new lines to allow paragraphs
+          - Performed manual and automated testing of APIs and backend of logistics services using Python and Pytest, automated frontend testing using Playwright, tested mobile versions using Appium. 
+          - Tested API integration with iOS and Android apps and participated in interviewing and onboarding of new hires.
+          - Successfully optimized testing processes, reducing test execution time by 40% through parallel testing and script optimization. 
+          - Test coverage improved by 30%, significantly reducing production errors. 
+          - Facilitated successful onboarding of new team members, reducing onboarding time by 20%. 
+          - Ensured stable automated testing of mobile apps by reducing failures by 15% through smart expectations.
+
+      - layout: left
         title: Delivery club
         link: delivery-club.ru
         link_text: delivery-club
@@ -72,6 +88,7 @@ content:
           - MLOPS team.
           - Automation of test scenarios using pytest, support for existing autotests.
           - Manual and automated testing (functional and non-functional, integration).
+
       - layout: left
         title: Kaspersky Lab
         link: kaspersky.com
