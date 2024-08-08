@@ -61,9 +61,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ECOM retail project
+        title: E-commerce retail delivery service
         link: .
-        link_text: ECOM retail project
+        link_text: E-commerce retail delivery service
         sub_title: Senior QA Engineer
         caption: January 2023 - Now
         quote: >
