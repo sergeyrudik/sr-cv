@@ -46,7 +46,7 @@ google_analytics: "G-B4XR81HWTY"
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating front and back end testing, mainly in Python, as well as JavaScript and Java.
 
