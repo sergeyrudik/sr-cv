@@ -61,9 +61,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: E-commerce retail delivery service
-        link: .
-        link_text: E-commerce retail delivery service
+        title: Magnit.Tech
+        link: magnit.tech
+        link_text: magnit.tech
         sub_title: Senior QA Engineer
         caption: January 2023 - Now
         quote: >
