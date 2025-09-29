@@ -3,3 +3,192 @@
 ---
 
 @import 'modern-resume-theme';
+
+/* --- Custom modern overrides --- */
+
+:root {
+  --background: #0b0f14;
+  --surface: #0f1620;
+  --card: #131c27;
+  --text: #e6e9ef;
+  --muted: #9aa4b2;
+  --primary: #5cc8ff;
+  --primary-600: #47b6ee;
+  --accent: #a78bfa; /* soft purple */
+  --ring: #2a4157;
+  --border: #1f2a37;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --surface: #f8fafc;
+    --card: #ffffff;
+    --text: #0b1220;
+    --muted: #4b5563;
+    --primary: #2563eb;
+    --primary-600: #1d4ed8;
+    --accent: #7c3aed;
+    --ring: #d1e3ff;
+    --border: #e5e7eb;
+  }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 10% -10%, rgba(92, 200, 255, 0.08), transparent 60%),
+    radial-gradient(900px 700px at 110% 10%, rgba(167, 139, 250, 0.08), transparent 60%),
+    var(--background);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color .2s ease, text-shadow .2s ease, opacity .2s ease;
+}
+
+a:hover {
+  color: var(--primary-600);
+  text-shadow: 0 0 0 rgba(0,0,0,0), 0 0 24px rgba(92, 200, 255, .25);
+}
+
+/* Page container and sections */
+.page-content, .post-list, .wrapper, .container {
+  max-width: 860px;
+}
+
+section, .content-section, .post, .resume-item, .list-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 16px 0;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, .25), inset 0 1px 0 rgba(255,255,255,.02);
+}
+
+/* Headings */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: var(--text);
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: var(--muted);
+}
+
+/* Lists inside resume sections */
+ul, ol {
+  padding-left: 1.25rem;
+}
+
+li + li {
+  margin-top: .35rem;
+}
+
+/* Tag marks in about */
+mark {
+  background: linear-gradient(90deg, rgba(92, 200, 255, .25), rgba(167, 139, 250, .25));
+  color: inherit;
+  padding: .1em .35em;
+  border-radius: 6px;
+}
+
+/* Header and footer polish */
+.site-header, header {
+  background: transparent;
+  border: 0;
+}
+
+.site-title, .site-title a {
+  color: var(--text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* Social links */
+[class*="social"] a, .social a, .socials a, .icon-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 4px 6px 0 0;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--surface), var(--card));
+  color: var(--text);
+  box-shadow: 0 4px 14px rgba(2, 6, 23, .2), inset 0 1px 0 rgba(255,255,255,.03);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, color .18s ease;
+}
+
+[class*="social"] a:hover, .social a:hover, .socials a:hover, .icon-links a:hover {
+  transform: translateY(-2px);
+  border-color: var(--ring);
+  box-shadow: 0 8px 22px rgba(2, 6, 23, .32), 0 0 0 6px rgba(92,200,255,.08);
+}
+
+/* Buttons and links that look like buttons */
+.btn, a.button, button, .button {
+  background: linear-gradient(180deg, var(--primary), var(--primary-600));
+  color: white !important;
+  border: none;
+  padding: .6rem 1rem;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, .35);
+}
+
+.btn:hover, a.button:hover, button:hover, .button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, .45);
+}
+
+/* Images */
+img {
+  border-radius: 12px;
+}
+
+.about img, .profile img, .avatar img {
+  border-radius: 50%;
+}
+
+/* Subtle divider style */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border), transparent);
+  margin: 24px 0;
+}
+
+/* Fine-tune small text */
+small, .muted, .caption {
+  color: var(--muted);
+}
+
+/* Smooth transitions globally */
+* {
+  transition-property: background-color, color, border-color, box-shadow, transform;
+  transition-duration: .2s;
+  transition-timing-function: ease;
+}
