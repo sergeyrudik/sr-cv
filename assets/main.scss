@@ -4,30 +4,31 @@
 /* --- Custom modern overrides --- */
 
 :root {
-  --background: #0b0f14;
-  --surface: #0f1620;
-  --card: #131c27;
-  --text: #e6e9ef;
-  --muted: #9aa4b2;
-  --primary: #5cc8ff;
-  --primary-600: #47b6ee;
-  --accent: #a78bfa; /* soft purple */
-  --ring: #2a4157;
-  --border: #1f2a37;
+  /* Light palette by default */
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --card: #ffffff;
+  --text: #0b1220;
+  --muted: #4b5563;
+  --primary: #2563eb;
+  --primary-600: #1d4ed8;
+  --accent: #7c3aed;
+  --ring: #d1e3ff;
+  --border: #e5e7eb;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
-    --surface: #f8fafc;
-    --card: #ffffff;
-    --text: #0b1220;
-    --muted: #4b5563;
-    --primary: #2563eb;
-    --primary-600: #1d4ed8;
-    --accent: #7c3aed;
-    --ring: #d1e3ff;
-    --border: #e5e7eb;
+    --background: #0b0f14;
+    --surface: #0f1620;
+    --card: #131c27;
+    --text: #e6e9ef;
+    --muted: #9aa4b2;
+    --primary: #5cc8ff;
+    --primary-600: #47b6ee;
+    --accent: #a78bfa; /* soft purple */
+    --ring: #2a4157;
+    --border: #1f2a37;
   }
 }
 
@@ -41,9 +42,9 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
     "Apple Color Emoji", "Segoe UI Emoji" !important;
   color: var(--text) !important;
-  background: radial-gradient(1200px 800px at 10% -10%, rgba(92, 200, 255, 0.16), transparent 60%),
-    radial-gradient(1000px 700px at 100% -10%, rgba(255, 180, 162, 0.12), transparent 60%),
-    radial-gradient(900px 700px at 110% 10%, rgba(167, 139, 250, 0.12), transparent 60%),
+  background: radial-gradient(1200px 800px at 10% -10%, rgba(92, 200, 255, 0.25), transparent 60%),
+    radial-gradient(1000px 700px at 100% -10%, rgba(255, 180, 162, 0.2), transparent 60%),
+    radial-gradient(900px 700px at 110% 10%, rgba(167, 139, 250, 0.2), transparent 60%),
     var(--background) !important;
   line-height: 1.65;
 }
