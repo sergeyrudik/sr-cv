@@ -179,7 +179,7 @@ footer_show_references: false
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets
   style: compressed
 
 plugins:
