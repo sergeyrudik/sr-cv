@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sergei Rudik
-title: Lead QA Engineer
+title: Senior Quality Assurance Engineer
 email: rudikqa@gmail.com
 website: https://rudik.dev
 
@@ -38,46 +38,59 @@ linkedin_username: sergei-rudik
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-gtm: "G-B4XR81HWTY"
+# Google Analytics (loaded once by the portfolio layout)
 gtag: "G-B4XR81HWTY"
-google_analytics: "G-B4XR81HWTY"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sergei and I'm a Lead QA engineer. I have experience in automating front and back end testing, mainly in Python, as well as JavaScript and Java.
+  Hi, I’m Sergei, a Senior Quality Assurance Engineer on the SIEM team at BI.ZONE. I automate frontend and backend testing, primarily with Python, and also work with JavaScript and Java.
 
-  I also mentor students at the School of Online Professions.
+  From September 2020 to May 2026, I also mentored QA students at SkillFactory.
 
-  I am most skilled at: <mark>Testing</mark> and <mark>Eating Pizza</mark>
+  My specialties: <mark>testing</mark> and <mark>eating pizza</mark>.
 
-  I write informative articles - [Medium](https://medium.com/@rudikqa)
+  I also share what I learn on [Medium](https://medium.com/@rudikqa).
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: BI.ZONE
+        link: bi.zone
+        link_text: bi.zone
+        sub_title: Senior Quality Assurance Engineer · Full-time
+        caption: June 2024 - Present
+        description: |
+          SIEM team.
+
+          - Developed and implemented an automated testing strategy, integrating testing into the development process.
+          - Built a Python framework with pytest and achieved over 60% API test coverage.
+          - Set up GitLab CI/CD pipelines and reduced regression testing time by 40%.
+          - Maintained testing infrastructure using Docker and Kubernetes.
+          - Implemented parallel test execution and virtualization, and used Git Flow and SQL in the testing workflow.
+          - Participated in requirements analysis and conducted load testing on internal tools.
+
+      - layout: left
         title: Magnit.Tech
         link: magnit.tech
         link_text: magnit.tech
         sub_title: Senior QA Engineer
-        caption: January 2023 - Now
+        caption: January 2023 - May 2024
         quote: >
           A lot of code, a lot of socializing with coworkers and other interactions.
         description: | # this will include new lines to allow paragraphs
-          - Performed manual and automated testing of APIs and backend of logistics services using Python and Pytest, automated frontend testing using Playwright, tested mobile versions using Appium. 
-          - Tested API integration with iOS and Android apps and participated in interviewing and onboarding of new hires.
-          - Successfully optimized testing processes, reducing test execution time by 40% through parallel testing and script optimization. 
-          - Test coverage improved by 30%, significantly reducing production errors. 
-          - Facilitated successful onboarding of new team members, reducing onboarding time by 20%. 
-          - Ensured stable automated testing of mobile apps by reducing failures by 15% through smart expectations.
+          - Tested logistics APIs and backend services manually and with Python and pytest; automated frontend testing with Playwright and mobile app testing with Appium.
+          - Tested API integrations with iOS and Android apps and helped interview and onboard new hires.
+          - Reduced test execution time by 40% through parallel testing and script optimization.
+          - Improved test coverage by 30%, significantly reducing production errors.
+          - Streamlined onboarding for new team members, reducing onboarding time by 20%.
+          - Improved the stability of automated mobile tests, reducing failures by 15% through more robust assertions.
 
       - layout: left
-        title: Delivery club
+        title: Delivery Club
         link: delivery-club.ru
         link_text: delivery-club
         sub_title: Lead QA Engineer
@@ -85,9 +98,10 @@ content:
         quote: >
           A lot of scripts, big data and data processing.
         description: | # this will include new lines to allow paragraphs
-          - MLOPS team.
-          - Automation of test scenarios using pytest, support for existing autotests.
-          - Manual and automated testing (functional and non-functional, integration).
+          MLOps team.
+
+          - Automated test scenarios with pytest and maintained the existing test suite.
+          - Performed manual and automated functional, non-functional, and integration testing.
 
       - layout: left
         title: Kaspersky Lab
@@ -98,23 +112,23 @@ content:
         quote: >
           Autotests, autotests ... and more autotests.
         description: | # this will include new lines to allow paragraphs
-          - Automation of test scenarios using pytest (including selenium), support for existing autotests.
-          - Writing unittests with javascript + jest to check snapshots.
-          - Manual and automated testing (functional and non-functional, integration).
-          - Preparation of test plans and test scenarios.
+          - Automated test scenarios with pytest and Selenium and maintained the existing test suite.
+          - Wrote unit and snapshot tests with JavaScript and Jest.
+          - Performed manual and automated functional, non-functional, and integration testing.
+          - Prepared test plans and test scenarios.
       - layout: left
         title: SkillFactory
         link: skillfactory.ru
         link_text: skillfactory
         sub_title: QA Mentor (Part-time)
-        caption: September 2020 - Present
+        caption: September 2020 - May 2026
         quote: >
           A lot of communication.
         description: | # this will include new lines to allow paragraphs
-          - Consulting students on emerging issues
-          - Checking homework
-          - Personal analysis of assignments with students
-          - Participation in the finalization of training modules
+          - Helped students resolve questions and challenges.
+          - Reviewed homework and provided feedback.
+          - Worked through assignments with students one-on-one.
+          - Contributed to improvements in training modules.
 
       - layout: left
         title: Delimobil
@@ -123,10 +137,10 @@ content:
         sub_title: QA Engineer
         caption: October 2019 - June 2020
         quote: >
-          А lot of API and mobile app checks.
+          A lot of API and mobile app checks.
         description: | # this will include new lines to allow paragraphs
-          - Testing of several web and mobile applications, validation of different admin panels.
-          - Automated tests in Python for API/Backend.
+          - Tested web and mobile applications and validated administrative interfaces.
+          - Developed automated API and backend tests in Python.
 
       - layout: left
         title: ASOdesk
@@ -135,11 +149,10 @@ content:
         sub_title: QA Engineer
         caption: September 2018 - September 2019
         quote: >
-          This is a highly loaded web service with a lot of words that help in promoting applications for AppStore and GooglePlay.
-          There are also various reports and tools to analyze these words.
+          A high-traffic web service for app store optimization, with keyword analytics and reporting tools for the App Store and Google Play.
         description: | # this will include new lines to allow paragraphs
-          - Automated tests in Python and Selenium for UI.
-          - Manual testing of all developed functionality.
+          - Developed automated UI tests with Python and Selenium.
+          - Manually tested new features and existing functionality.
 
       - layout: left
         title: Netcracker Technology
@@ -150,8 +163,8 @@ content:
         quote: >
           Training in all types of testing.
         description: | # this will include new lines to allow paragraphs
-          - Worked at highly loaded project for the telecommunication provider of GTD, which includes equipment accounting, phone numbers accounting, connection of various services to subscribers, as well as a variety of operations on customers in the system.
-          - Manual testing, writing automated tests in Robot framework and internal tools.
+          - Tested a high-load system for telecommunications provider GTD, covering equipment and phone number management, subscriber service provisioning, and customer operations.
+          - Performed manual testing and wrote automated tests with Robot Framework and internal tools.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -159,7 +172,7 @@ content:
       - layout: left
         title: Povolzhskiy State University of Telecommunications & Informatics
         caption: 2010 - 2015
-        sub_title: Сommunications Engineer
+        sub_title: Communications Engineer
         description: | # this will include new lines to allow paragraphs
           - Engineering education in the telecommunications sector.
 
@@ -176,11 +189,31 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+
 
 sass:
   sass_dir: assets
   style: compressed
 
-plugins:
-  - jekyll-seo-tag
+
+
+url: "https://rudik.dev"
+baseurl: ""
+description: "Sergei Rudik — Senior Quality Assurance Engineer. Test automation, API and backend testing, and mentorship."
+skills:
+  - Python
+  - pytest
+  - Playwright
+  - Selenium
+  - Appium
+  - JavaScript
+  - Java
+  - GitLab CI/CD
+  - Docker
+  - Kubernetes
+  - SQL
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
