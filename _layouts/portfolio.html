@@ -25,7 +25,7 @@
     <header class="header">
       <a class="wordmark" href="#" aria-label="{{ site.name | escape }} home">sr<span>.</span></a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#services">Services</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <main id="main">
@@ -43,6 +43,13 @@
         </div>
       </section>
       <div class="specialties" aria-label="Areas of expertise"><span>Quality engineering</span><span>Test automation</span><span>API &amp; backend</span><span>Mentorship</span></div>
+      <section class="section service-links" id="services" aria-labelledby="services-title">
+        <div class="section-label"><span class="section-number">WORK TOGETHER</span><h2 id="services-title">How I can<br>help.</h2></div>
+        <div class="service-links-grid">
+          <a class="service-link" href="https://qa.rudik.dev/"><span class="eyebrow">FOR TEAMS</span><h3>QA &amp; automation <span aria-hidden="true">↗</span></h3><p>Testing audits, API automation, more reliable test runs, and focused AI pilots.</p></a>
+          <a class="service-link" href="https://mentor.rudik.dev/"><span class="eyebrow">FOR PEOPLE &amp; TEAMS</span><h3>QA mentorship <span aria-hidden="true">↗</span></h3><p>Practical guidance in testing, Python automation, code reviews, and career growth.</p></a>
+        </div>
+      </section>
       <section class="section about" id="about" aria-labelledby="about-title">
         <div class="section-label"><span class="section-number">01 / ABOUT</span><h2 id="about-title">Quality is<br>a team sport.</h2></div>
         <div class="about-body"><p class="lead">I’m a QA engineer who enjoys making complex systems more dependable — and helping people grow along the way.</p><div class="prose">{{ site.about_content | markdownify }}</div><div class="skills" aria-label="Technologies">{% for skill in site.skills %}<span>{{ skill | escape }}</span>{% endfor %}</div></div>
