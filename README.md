@@ -2,6 +2,8 @@
 
 A lightweight, static Jekyll portfolio for https://rudik.dev, compatible with GitHub Pages. No frontend build pipeline, external theme, web fonts, icon libraries, or JavaScript UI dependencies.
 
+The English portfolio stays at `/`; the complete Russian version is at `/ru/`. The two pages have reciprocal `hreflang` links and sitemap entries. `assets/language.js` shares the `lang` cookie with the QA and Mentor sites and only suggests another language on direct visits; it never redirects crawlers or visitors automatically. Cross-site links point to the matching language URL.
+
 ## Editing
 
 - `_config.yml`: profile, experience, education, skills, social links, and analytics ID.

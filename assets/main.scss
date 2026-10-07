@@ -73,6 +73,7 @@ h1, h2, h3 {
   justify-content: space-between;
   padding: 27px 0;
   border-bottom: 1px solid var(--line);
+  gap: 24px;
 }
 
 .wordmark {
@@ -95,6 +96,13 @@ nav {
 nav a {
   padding: 8px 0;
 }
+
+.lang { gap: 8px; font-family: var(--mono); font-size: 12px; flex-shrink: 0; }
+.lang a { min-width: 36px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; color: var(--muted); }
+.lang a[aria-current="page"] { color: var(--ink); font-weight: 700; }
+.language-suggestion { border-bottom: 1px solid var(--line); padding: 12px 0; font-size: 14px; }
+.language-suggestion a { text-decoration: underline; text-underline-offset: 3px; }
+.language-suggestion[hidden] { display: none; }
 
 .hero {
   display: grid;
@@ -662,7 +670,10 @@ footer {
 
   .header {
     padding: 20px 0;
+    flex-wrap: wrap;
   }
+
+  .header > nav:not(.lang) { order: 3; width: 100%; }
 
   nav {
     gap: 20px;

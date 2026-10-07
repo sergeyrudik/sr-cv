@@ -7,6 +7,9 @@
   <meta name="description" content="{{ site.description | escape }}">
   <meta name="theme-color" content="#f7f8f2">
   <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="https://rudik.dev/">
+  <link rel="alternate" hreflang="ru" href="https://rudik.dev/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://rudik.dev/">
   <meta property="og:title" content="{{ site.name | escape }} — {{ site.title | escape }}">
   <meta property="og:description" content="{{ site.description | escape }}">
   <meta property="og:type" content="website">
@@ -14,6 +17,7 @@
   <meta property="og:image" content="{{ site.about_profile_image | absolute_url }}">
   <link rel="icon" href="{{ site.favicon | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <script src="{{ '/assets/language.js' | relative_url }}" defer></script>
   {% if site.gtag %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag | escape }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.gtag | escape }}');</script>
@@ -27,7 +31,9 @@
       <nav aria-label="Main navigation">
         <a href="#about">About</a><a href="#experience">Experience</a><a href="#services">Services</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
+      <nav class="lang" aria-label="Language"><a href="/ru/" hreflang="ru" lang="ru">RU</a><a href="/" hreflang="en" lang="en" aria-current="page">EN</a></nav>
     </header>
+    <div class="language-suggestion" hidden></div>
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
@@ -46,8 +52,8 @@
       <section class="section service-links" id="services" aria-labelledby="services-title">
         <div class="section-label"><span class="section-number">WORK TOGETHER</span><h2 id="services-title">How I can<br>help.</h2></div>
         <div class="service-links-grid">
-          <a class="service-link" href="https://qa.rudik.dev/"><span class="eyebrow">FOR PRODUCT TEAMS</span><h3>Make releases more reliable <span aria-hidden="true">↗</span></h3><p>QA audits, API automation, stable test runs, and focused AI pilots. Start with your team's current bottleneck.</p><span class="service-link-action">Explore QA services →</span></a>
-          <a class="service-link" href="https://mentor.rudik.dev/"><span class="eyebrow">FOR QA ENGINEERS</span><h3>Grow with a clear plan <span aria-hidden="true">↗</span></h3><p>One-to-one guidance for entering QA, learning Python automation, reviewing code, and taking the next career step.</p><span class="service-link-action">Explore mentorship →</span></a>
+          <a class="service-link" href="https://qa.rudik.dev/en/"><span class="eyebrow">FOR PRODUCT TEAMS</span><h3>Make releases more reliable <span aria-hidden="true">↗</span></h3><p>QA audits, API automation, stable test runs, and focused AI pilots. Start with your team's current bottleneck.</p><span class="service-link-action">Explore QA services →</span></a>
+          <a class="service-link" href="https://mentor.rudik.dev/en/"><span class="eyebrow">FOR QA ENGINEERS</span><h3>Grow with a clear plan <span aria-hidden="true">↗</span></h3><p>One-to-one guidance for entering QA, learning Python automation, reviewing code, and taking the next career step.</p><span class="service-link-action">Explore mentorship →</span></a>
         </div>
       </section>
       <section class="section about" id="about" aria-labelledby="about-title">
