@@ -899,3 +899,17 @@ footer {
     margin-top: 10px;
   }
 }
+
+/* A compact first screen with direct routes for teams and engineers. */
+.hero{grid-template-columns:minmax(0,1.55fr) minmax(0,.85fr);gap:48px;padding:38px 0 42px}
+.hero-copy{min-width:0}.hero .eyebrow{line-height:1.6;margin-bottom:20px;letter-spacing:.045em}
+.hero h1{font-size:clamp(38px,4.4vw,58px);line-height:1.08;letter-spacing:-.045em}
+.hero-description{max-width:620px;font-size:16px;line-height:1.65;margin-top:22px}
+.hero-actions{flex-wrap:wrap;gap:12px;margin-top:24px}.hero-actions .button{gap:18px;min-height:46px}
+.button-secondary{background:transparent;color:var(--green);border:1px solid var(--green)}
+.button-secondary:hover{background:#e8eedd;color:var(--green)}
+.hero-proof{font-size:12px;line-height:1.8;color:var(--muted);margin-top:20px}
+.hero-experience{margin-top:10px}.hero .portrait-area{max-width:350px;justify-self:end;padding-top:0}
+.hero .portrait-label{font-size:10px}.hero .note{font-size:12px;margin-top:20px}
+@media(max-width:850px){.hero{gap:28px}.hero h1{font-size:40px}.hero-description{font-size:15px}}
+@media(max-width:580px){.hero{grid-template-columns:1fr;padding:28px 0 35px;gap:32px}.hero h1{font-size:clamp(34px,8.8vw,46px)}.hero .eyebrow{font-size:10px}.hero .portrait-area{max-width:260px;justify-self:center}.hero-actions{gap:10px}.hero-actions .button{font-size:13px;padding:11px 14px}.hero-proof{font-size:11px}}
