@@ -913,3 +913,6 @@ footer {
 .hero .portrait-label{font-size:10px}.hero .note{font-size:12px;margin-top:20px}
 @media(max-width:850px){.hero{gap:28px}.hero h1{font-size:40px}.hero-description{font-size:15px}}
 @media(max-width:580px){.hero{grid-template-columns:1fr;padding:28px 0 35px;gap:32px}.hero h1{font-size:clamp(34px,8.8vw,46px)}.hero .eyebrow{font-size:10px}.hero .portrait-area{max-width:260px;justify-self:center}.hero-actions{gap:10px}.hero-actions .button{font-size:13px;padding:11px 14px}.hero-proof{font-size:11px}}
+
+/* Comfortable touch targets without enlarging links inside prose. */
+.lang a{min-width:44px;min-height:44px}.header nav a{display:inline-flex;align-items:center;min-height:44px}.text-link{min-height:44px}.contact-links a,footer a{display:inline-flex;align-items:center;min-height:44px}
